@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+#searchMusic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+#searchMusic input{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+}
+
+#searchMusic button{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 50px;
+    color: #fff;
+}
+
+#player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
