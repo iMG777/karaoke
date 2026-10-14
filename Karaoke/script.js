@@ -1,4 +1,4 @@
-const YT_API_KEY = "AIzaSyAIwIJY-UojBGZ18dF7NFhJetu2Cl3Ti5E";
+const YT_API_KEY = "#"; //SUBSTITUA POR SUA KEY
 
 async function searchMusic(){
     const searchedMusic = document.getElementById('inputSearch').value;
